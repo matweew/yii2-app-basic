@@ -12,6 +12,12 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+      }
+    ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
